@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Modak&family=Montserrat:ital,wght@0,100;0,400;0,500;1,600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    width: 95%;
+    height: auto;
+    margin: auto;
+}
+
+.cont_yo{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    
+}
+
+.cont_me{
+    width: 800px;
+  
+
+}
+.cont_me h1{
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+.cont_me p{
+    font-family: montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.cont_btn{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.btn{
+    width: auto;
+    height: auto;
+    padding: 8px 20px 8px 20px;
+    background-color: #4052F3;
+    border: 1px solid #4052F3;
+    color: #D6E1F2;
+    border-radius: 20px;  
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+    background-color: #000;
+    border: 1px solid #000;
+}
+
+.cont_img_yo{
+  width: 340px;
+  
+  margin-bottom: 10px;
+}
+
+.img_curre{
+    width: auto;
+    height: 450px;
+}
+
+
+/*  */
+
+.cont_infos{
+    width: 100%;
+    max-width: 1700px;
+    height: auto;
+    display: flex;
+    margin: auto;
+    margin-top: 120px;
+    padding: 10px;
+}
+
+.cent_head{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.cont_infos p{
+    margin: 15px 15px 15px 0;
+    font-size: 18px;
+}
+
+.icon{
+    margin-right: 10px;
+    font-size: 30px;
+}
+
+/*  */
+
+.cont_cript{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+
+}
+.cont_cript h1{
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.cripto table{
+    width: 800px;
+    background-color: #000;
+    color: #D6E1F2;
+    font-size: 20px;
+    line-height: 40px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 6.12718px 6.12718px 2.04239px rgba(0, 0, 0, 0.25);
+
+}
+
+.cripto thead td:nth-child(1){
+    padding: 30px 30px 30px 0;
+}
+.cripto  td{
+    padding:30px;
+}
+
+.cont_coins{
+    display: flex;
+    align-items: center;
+}
+
+.coins{
+    height:60px;
+}
+
+/*  */
+
+.seg{
+    
+    margin: auto;
+    margin-top: 150px;
+    width: 100%;
+    max-width: 1700px;
+}
+.seg h1{
+    font-size: 40px;
+    margin-bottom: 35px;
+}
+.seg p{
+    width: 80%;
+    font-size: 20px;
+}
+
+.cont_seg{
+    width: 100%;
+    max-width: 1700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.cont_seg img{
+    height: 500px;
+}
+
+.cont_article_seg{
+    width: 500px;
+}
+
+.article_seg{
+    
+    margin-top: 50px;
+}
+.article_seg p{
+    font-size: 18px;
+}
+
+.titulo_seg{
+    display: flex;
+    align-items: center;
+}
+.titulo_seg h1{
+    font-size: 24px;
+}
+.titulo_seg p{
+    font-size: 20px;
+}
+
+.titulo_seg svg{
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+
+@media (max-width: 1040px){
+    .cont_img_yo{
+        width: 300px;    
+    }
+    .img_curre{
+        height: 350px;
+    }
+    .cont_seg img{
+        height: 350px;
+    }
+}
+@media (max-width: 770px){
+    .cont_img_yo{
+        width: 200px;    
+    }
+    .img_curre{
+        height: 250px;
+    }
+    .cont_seg img{
+        height: 250px;
+    }
+}
+@media (max-width: 425px){
+    .cont_yo{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 150px;
+        
+    }
+    .cont_img_yo{
+        width: 200px;    
+    }
+    .img_curre{
+        display: none;
+    }
+    .cont_seg img{
+        display: none;
+    }
+    .cripto table{
+        width: 100px;
+        font-size: 17px;
+        margin: auto;
+        /* width: 800px;
+        background-color: #000;
+        color: #D6E1F2;
+        font-size: 20px;
+        line-height: 40px;
+        padding: 30px;
+        border-radius: 15px;
+        box-shadow: 0px 6.12718px 6.12718px 2.04239px rgba(0, 0, 0, 0.25); */
+    
+    }
+    
+}
