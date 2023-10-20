@@ -16,9 +16,10 @@ function Footer(){
             </section>
             
             <footer className={Styles.list_icon}>
-                    <div >
-                        <AiFillGithub/>
-                        <AiFillLinkedin/>
+                    <div > 
+                        <a href='https://github.com/Henrique-yo/YOcoin_uc3' target='blank_'><AiFillGithub/></a>
+                        <a href='https://www.linkedin.com/in/henrique-natan-da-silva-oliveira/' target='blank_'><AiFillLinkedin/> </a>
+                        
                     </div>
                     <ul className={Styles.list}>
                     <li>

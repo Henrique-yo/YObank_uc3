@@ -1,9 +1,10 @@
 import { Link } from 'react-scroll';
 import Styles from '../css/Header.module.css'
 import Logo from '../img/YOcoin.png'
+import Form from './Form';
 
 const Header2 = () => (
-
+        
     <header>
          
          <section className={Styles.cont}>
@@ -26,7 +27,8 @@ const Header2 = () => (
                         </Link>
                     </li>
                     <li>
-                        <Link to="section" smooth={true} duration={500}>
+                        
+                        <Link to="Form" >
                             Entrar
                         </Link>
                     </li>
