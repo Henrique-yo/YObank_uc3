@@ -1,4 +1,5 @@
-import Styles from '../css/Footer.module.css'
+import Styles from '../css/Footer.module.css';
+import { Link } from 'react-scroll';
 import { AiFillGithub } from 'react-icons/ai';
 import { AiFillLinkedin } from 'react-icons/ai';
 
@@ -20,10 +21,21 @@ function Footer(){
                         <AiFillLinkedin/>
                     </div>
                     <ul className={Styles.list}>
-                        <li>Home</li>
-                        {/* <li>Infos</li> */}
-                        <li>Criptos</li>
-                        <li>Segurança</li>
+                    <li>
+                        <Link to="section1" smooth={true} duration={500}>
+                            Home
+                        </Link>
+                    </li>
+                    <li>
+                        <Link to="section2" smooth={true} duration={500}>
+                            Criptos
+                        </Link>
+                    </li>
+                    <li>
+                        <Link to="section4" smooth={true} duration={500}>
+                            Segurança
+                        </Link>
+                    </li>
                     </ul>
             </footer>
         </>
