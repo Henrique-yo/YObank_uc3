@@ -84,6 +84,7 @@ main{
     max-width: 1700px;
     height: auto;
     display: flex;
+    flex-wrap: wrap;
     margin: auto;
     margin-top: 120px;
     padding: 10px;
@@ -232,15 +233,13 @@ main{
     }
 }
 @media (max-width: 425px){
-    .cont_yo{
-        width: 100%;
-        height: auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 150px;
-        
+    .cont_infos{
+        margin-left: 36px;
     }
+    .cont_yo{
+        margin-left: 36px;
+    }
+    
     .cont_img_yo{
         width: 200px;    
     }
@@ -250,6 +249,13 @@ main{
     .cont_seg img{
         display: none;
     }
+
+    /*  */
+
+    .cont_cript h1{
+        margin-left: 36px;
+    }
+
     .cripto table{
         width: 100px;
         font-size: 17px;
@@ -262,7 +268,16 @@ main{
         padding: 30px;
         border-radius: 15px;
         box-shadow: 0px 6.12718px 6.12718px 2.04239px rgba(0, 0, 0, 0.25); */
-    
     }
+
+        /*  */
+
+    .seg{
+        margin-left: 36px;
+    }
+    .cont_seg{
+        margin-left: 36px;
+    }
+    
     
 }

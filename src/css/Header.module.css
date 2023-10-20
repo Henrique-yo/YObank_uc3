@@ -11,7 +11,6 @@ header{
     width: 100%;
     display: flex;
     justify-content: center;
-    
     margin: auto;
 }
 .cont{
@@ -20,6 +19,7 @@ header{
     height: auto;
     position: fixed;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     background-color: #000;
@@ -35,7 +35,7 @@ header{
     list-style: none;
     padding: 10px 0;
     gap: 15px;
-    
+    flex-wrap: wrap;
     
 }
 .cont li{
@@ -57,3 +57,32 @@ header{
     border-radius: 30px;
 }
 
+
+@media (max-width: 425px){
+    header{
+        width: 80%;
+        margin-left: 70px;
+        
+    }
+    .cont{
+        justify-content: center;
+        align-items: center;
+    }
+    .cont li{
+        width: 50%;
+        justify-content: center;
+        text-align: center;
+        
+        
+    }
+    .cont ul{
+        justify-content: center;
+        
+    }
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+}

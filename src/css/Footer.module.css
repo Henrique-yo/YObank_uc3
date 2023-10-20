@@ -70,3 +70,13 @@
     cursor: pointer;
     
 }
+
+@media (max-width: 425px){
+    .conta{
+        width: 490px;
+    }
+    .list_icon{
+        width: 490px;
+        
+    }
+}
