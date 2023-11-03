@@ -58,6 +58,13 @@ header{
 }
 
 
+.link_router{
+    color: #D6E1F2;
+    text-decoration: none;
+    
+}
+
+
 @media (max-width: 425px){
     header{
         width: 80%;

@@ -12,6 +12,7 @@
     display: flex;
     justify-content: center;
     
+    
 }
 
 .cont_form{
@@ -22,6 +23,7 @@
     border-radius: 10px;
     padding: 60px;
     width: min-content;
+    box-shadow: 3px 7px 11px 3px rgba(0,0,0,0.77);
     
 }
 
@@ -29,10 +31,11 @@
     font-size: 1.8em;
     margin-bottom: 10%;
     color: #D6E1F2;
+    text-align: center;
 }
 
 .cont_input{
-    min-width: 280px;
+    width: 400px;
     border-radius: 22px;
     border: 2px solid #6f7e8a;
     padding: 5px;
@@ -47,7 +50,7 @@
     
 }
 .cont_input svg{
-    font-size: 30px;
+    font-size: 35px;
     padding: 5px;
     background-color: aqua;
     color: #fff;
@@ -65,6 +68,7 @@
 }
 
 .btn{
+    
     margin-top: 10%;
     width: 100%;
     text-align: center;
@@ -90,5 +94,45 @@
     color: #D6E1F2;
 }
 
+.btn2 button{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 20px;
+    background-color: #4052F3;
+    border: none;
+}
+
+.btn2 svg{
+    font-size: 35px;
+    color: #D6E1F2;
+}
 
 
+
+@media (max-width: 1440px) { 
+
+    .cont_input{
+        min-width: 280px;
+        border-radius: 22px;
+        border: 2px solid #6f7e8a;
+        padding: 5px;
+        margin: 0px 0px 12px -5px;
+        display: flex;
+        align-items: center;
+        color: #D6E1F2;
+        
+    }
+    .cont_input svg{
+        font-size: 30px;
+        padding: 5px;
+        background-color: aqua;
+        color: #fff;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+ }

@@ -1,7 +1,8 @@
-import { Link } from 'react-scroll';
+import { Link as RouterLink } from 'react-router-dom';
+import { Link as ScrollLink } from 'react-scroll';
 import Styles from '../css/Header.module.css'
 import Logo from '../img/YOcoin.png'
-import Form from './Form';
+import Form from '../pages/Form';
 
 const Header2 = () => (
         
@@ -12,25 +13,24 @@ const Header2 = () => (
             <nav>
                 <ul>
                     <li>
-                        <Link to="section1" smooth={true} duration={500}>
+                        <ScrollLink to="section1" smooth={true} duration={500}>
                             Home
-                        </Link>
+                        </ScrollLink>
                     </li>
                     <li>
-                        <Link to="section3" smooth={true} duration={500}>
+                        <ScrollLink to="section3" smooth={true} duration={500}>
                             Criptos
-                        </Link>
+                        </ScrollLink>
                     </li>
                     <li>
-                        <Link to="section4" smooth={true} duration={500}>
+                        <ScrollLink to="section4" smooth={true} duration={500}>
                             Segurança
-                        </Link>
+                        </ScrollLink>
                     </li>
                     <li>
-                        
-                        <Link to="Form" >
+                        <RouterLink to="/form" className={Styles.link_router} >
                             Entrar
-                        </Link>
+                        </RouterLink>
                     </li>
                 </ul>
             </nav>
